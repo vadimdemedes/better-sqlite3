@@ -75,7 +75,7 @@ deploy:
   provider: releases
   api_key:
     secure: "odX6+uHu7mIl7f2/xSpkzp7C1SIYXf5GSmWqx58QvebehoxPROrJ/zxREgHG8UpSFxEXjDQAu1/fs0ejzdhvP6RJsts/AyMT2Osehj/yZGdQPLzOqglvgrFRXuEpsL0jvDYPjqcNUX28f2DFvYo1WVTBu3HHd9vmy8p64KjKXuK47SyKFI8I2CYyWNVNSvjO9vaPs/Fo2mk1vcHS9Cx1fVSkl9Xe0eRyC0TKE06FmRCXx8SfI+YYqYEQLenJo2SIXOrTbWDDKmFk75xJTx2GSjUkS7MpcReyKpnfEec0GXvliu664TfiLTWQpETW+0SVadar/O0eGQXC5zQzsd2YYwWRUSBg+g2UMZz5XzxruvDouVJe2/wjbi/ctrysqh+odcRY8ohTZw3zxb+3F6t30RArOjx//6gn666IxtnFyeTSaKHxu0hrbJ4yny1acY9Fx3rhBFSIfp6tIRDUtR2/GtFTdf/hf/Cx9+EFKqWPoiR9rgV5o/7EUCF5q5Du265YGHXVCwgZlXlVVQZTexj2VMiLV8xW3TDYYr8DIA8H9K4iIGosId+AAsdms4mxhJ73clfxtEmyEvyEJkqXPvMjxFLhpJWTQyUX0d62NYVGKTjWnovfbc7poRKThqtlM2TlRwYJ7QbUeBexBYc+lHCtRLMz7kmXDg2Ea3x4KeZ3XkM="
-  file: prebuilds/*
+  file: prebuilds/@vdemedes/*
   file_glob: true
   skip_cleanup: true
   on:
