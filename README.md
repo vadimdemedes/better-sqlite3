@@ -1,5 +1,7 @@
 # better-sqlite3 [![Build Status](https://travis-ci.org/JoshuaWise/better-sqlite3.svg?branch=master)](https://travis-ci.org/JoshuaWise/better-sqlite3) [![Build status](https://ci.appveyor.com/api/projects/status/ilk8hb8v95m54v6f/branch/master?svg=true)](https://ci.appveyor.com/project/JoshuaWise/better-sqlite3/branch/master)
 
+> This is a fork of the original [better-sqlite3](https://github.com/JoshuaWise/better-sqlite3) package, but with support for latest Node.js and Electron versions.
+
 The fastest and simplest library for SQLite3 in Node.js.
 
 - Full transaction support
@@ -29,7 +31,7 @@ The fastest and simplest library for SQLite3 in Node.js.
 ## Installation
 
 ```bash
-npm install better-sqlite3
+npm install @vdemedes/better-sqlite3
 ```
 
 > You must be using Node.js v10.20.1 or above. Prebuilt binaries are available for [LTS versions](https://nodejs.org/en/about/releases/) + Linux/OSX.
@@ -39,7 +41,7 @@ npm install better-sqlite3
 ## Usage
 
 ```js
-const db = require('better-sqlite3')('foobar.db', options);
+const db = require('@vdemedes/better-sqlite3')('foobar.db', options);
 
 const row = db.prepare('SELECT * FROM users WHERE id = ?').get(userId);
 console.log(row.firstName, row.lastName, row.email);
